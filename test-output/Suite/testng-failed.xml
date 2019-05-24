@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Com.crm.Testcase.HomePageTest2">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyHomepageTest"/>
+          <include name="verifyContactslink"/>
+          <include name="VerifyNewContactTest"/>
+          <include name="verifycorrectuserTest"/>
+        </methods>
+      </class> <!-- Com.crm.Testcase.HomePageTest2 -->
+      <class name="Com.crm.Testcase.ContactPageTest3">
+        <methods>
+          <include name="selectSingalContactTest"/>
+          <include name="setUp"/>
+          <include name="validateCreatenewContact"/>
+          <include name="verifyContactsPagelabel"/>
+          <include name="selectMultipleContactTest"/>
+        </methods>
+      </class> <!-- Com.crm.Testcase.ContactPageTest3 -->
+      <class name="Com.crm.Testcase.LoginPageTest1">
+        <methods>
+          <include name="loginpageTitle"/>
+          <include name="loignTest"/>
+        </methods>
+      </class> <!-- Com.crm.Testcase.LoginPageTest1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
